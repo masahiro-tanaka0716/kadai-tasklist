@@ -6,7 +6,7 @@
       <ul>
         
         <% if logged_in? %>
-         <h2><%= current_user.name %></h2>
+         <h2><%= current_user.name %>さんこんにちは</h2>
           <li><%= link_to 'ログアウトする', logout_path, method: :delete %></li>
         <% else %>
           
